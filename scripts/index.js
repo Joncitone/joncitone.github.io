@@ -53,11 +53,11 @@ $(function () {
     if (pos2 > $('#about').offset().top) {
       highlightLink('about');
     }
-    if (pos2 > $('#portfolio').offset().top) {
-      highlightLink('portfolio');
+    if (pos2 > $('#projects').offset().top) {
+      highlightLink('projects');
     }
-    if (pos2 > $('#blog').offset().top) {
-      highlightLink('blog');
+    if (pos2 > $('#resume').offset().top) {
+      highlightLink('resume');
     }
     if (
       pos2 > $('#contact').offset().top ||
@@ -106,14 +106,14 @@ $(function () {
     $('.link-wrap').toggleClass('visible');
   });
 
-  $('.blog-wrap').hover(
+  $('.resume-wrap').hover(
     function () {
-      $('.blog-wrap').not(this).addClass('fade');
+      $('.resume-wrap').not(this).addClass('fade');
       $(this).addClass('hover');
     },
     function () {
       $(this).removeClass('hover');
-      $('.blog-wrap').removeClass('fade');
+      $('.resume-wrap').removeClass('fade');
     }
   );
 

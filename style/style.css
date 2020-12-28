@@ -818,24 +818,24 @@ section:nth-of-type(4) .gradient {
   top: 0;
   width: 100%;
 }
-section:nth-of-type(4) .blog-wrap {
+section:nth-of-type(4) .resume-wrap {
   cursor: pointer;
   margin: 0 0 50px 0;
   padding: 0 2px;
   width: 100%;
 }
 
-section:nth-of-type(4) .blog-wrap #resume {
+section:nth-of-type(4) .resume-wrap #resume {
   background: url('/img/resume-pic.png') center center/cover;
 }
 
-section:nth-of-type(4) .blog-wrap .fade-wrap {
+section:nth-of-type(4) .resume-wrap .fade-wrap {
   transition: opacity 0.3s;
 }
-section:nth-of-type(4) .blog-wrap.fade .fade-wrap {
+section:nth-of-type(4) .resume-wrap.fade .fade-wrap {
   opacity: 0.4;
 }
-section:nth-of-type(4) .blog-wrap.hover .fade-wrap .label {
+section:nth-of-type(4) .resume-wrap.hover .fade-wrap .label {
   color: #04c2c9;
 }
 section:nth-of-type(4) .label {
@@ -1175,7 +1175,7 @@ footer .footnote .highlight {
     font-size: 11pt;
     line-height: 15pt;
   }
-  section:nth-of-type(4) .blog-wrap {
+  section:nth-of-type(4) .resume-wrap {
     width: 400px;
   }
   section:nth-of-type(4) .thumb {
@@ -1298,14 +1298,14 @@ footer .footnote .highlight {
     margin: 0 25px;
     padding: 0 40px;
   }
-  section:nth-of-type(4) .blog-wrap {
+  section:nth-of-type(4) .resume-wrap {
     margin: 0 0 50px 20px;
     opacity: 0;
     width: 400px;
   }
 }
 @media screen and (min-width: 1280px) {
-  section:nth-of-type(4) .blog-wrap {
+  section:nth-of-type(4) .resume-wrap {
     margin: 0 0 50px 20px;
     width: 270px;
   }
