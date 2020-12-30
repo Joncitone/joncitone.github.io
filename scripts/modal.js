@@ -2,22 +2,24 @@ $(document).ready(function () {
   // MODAL
   var modalText = {
     project1: {
-      title: 'Project 1',
-      tag: 'PROJECT 1 TAG',
-      detail: 'Project 1 Description',
-      link: 'http://www.project 1 site.com',
+      title: 'Chalkboard',
+      tag: 'Remote Learning Platform',
+      detail: `Chalkboard provides students and teachers with tools for real-time interaction including live chat with Socket I/O and integration with Zoom.`,
+      link: 'http://github.com/joncitone/chalkboard',
     },
     project2: {
-      title: 'Project 2',
-      tag: 'PROJECT 2 TAG',
-      detail: 'Project 2 Description',
-      link: 'http://www.project 2 site.com',
+      title: 'new Higher()',
+      tag: 'Productivity Application',
+      detail:
+        'new Higher() is a to-do list application that comes pre-loaded with suggested activities designed to help software developers in their job hunt.',
+      link: 'http://github.com/joncitone/newHigher',
     },
     project3: {
-      title: 'Project 3',
-      tag: 'PROJECT 3 TAG',
-      detail: 'Project 3 Description',
-      link: 'http://www.project 3 site.com',
+      title: 'Vase Dropper',
+      tag: 'eCommerce Site',
+      detail:
+        'Vase Dropper provides users a unique shopping experience in which they can find their favorite way to drop vases including cats and catapults.',
+      link: 'http://github.com/joncitone/vase-dropper',
     },
   };
 
