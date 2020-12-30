@@ -125,7 +125,7 @@ $(document).ready(function () {
           id +
           '-pic' +
           index +
-          ".jpg') center center/cover",
+          ".png') center center/cover",
         backgroundSize: 'cover',
       });
     });
